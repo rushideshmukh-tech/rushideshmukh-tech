@@ -4,25 +4,17 @@ Infrastructure as Code (IaC) is revolutionizing how we deploy and manage cloud i
 
 ## What You'll Learn
 
-<div class="grid cards" markdown>
+### :material-microsoft-azure: Azure Bicep
 
--   :material-microsoft-azure:{ .lg .middle } **Azure Bicep**
+Learn Azure's native Infrastructure as Code language with domain-specific syntax designed for Azure deployments.
 
-    ---
+[:octicons-arrow-right-24: Get started with Bicep](bicep/getting-started.md)
 
-    Learn Azure's native Infrastructure as Code language with domain-specific syntax designed for Azure deployments.
+### :material-terraform: Terraform
 
-    [:octicons-arrow-right-24: Get started with Bicep](bicep/getting-started.md)
+Master HashiCorp's multi-cloud IaC tool with HCL syntax for managing infrastructure across any cloud provider.
 
--   :material-terraform:{ .lg .middle } **Terraform**
-
-    ---
-
-    Master HashiCorp's multi-cloud IaC tool with HCL syntax for managing infrastructure across any cloud provider.
-
-    [:octicons-arrow-right-24: Get started with Terraform](terraform/getting-started.md)
-
-</div>
+[:octicons-arrow-right-24: Get started with Terraform](terraform/getting-started.md)
 
 ## Why Infrastructure as Code?
 

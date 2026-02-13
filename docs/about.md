@@ -22,27 +22,10 @@ This site serves as a knowledge hub for Infrastructure as Code practitioners. He
 
 ## Connect With Me
 
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-github:{ .lg .middle } **GitHub**
-
-    ---
-
-    Check out my projects and contributions
-
-    [:octicons-arrow-right-24: @rushideshmukh-tech](https://github.com/rushideshmukh-tech)
-
--   :fontawesome-brands-linkedin:{ .lg .middle } **LinkedIn**
-
-    ---
-
-    Connect with me professionally
-
-    [:octicons-arrow-right-24: LinkedIn Profile](https://linkedin.com)
-
-</div>
-
-
+| Platform | Link |
+|----------|------|
+| :fontawesome-brands-github: **GitHub** | [@rushideshmukh-tech](https://github.com/rushideshmukh-tech) |
+| :fontawesome-brands-linkedin: **LinkedIn** | [LinkedIn Profile](https://linkedin.com) |
 
 ---
 
