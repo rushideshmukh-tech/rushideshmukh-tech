@@ -43,24 +43,7 @@ This site serves as a knowledge hub for Infrastructure as Code practitioners. He
 
 </div>
 
-## Contributing
 
-Found an issue or want to contribute? This site is open source!
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
-All contributions are welcome - from fixing typos to adding new tutorials.
-
-## Tech Stack
-
-This site is built with:
-
-- **MkDocs**: Static site generator
-- **Material for MkDocs**: Beautiful theme
-- **GitHub Pages**: Hosting
-- **GitHub Actions**: CI/CD
 
 ---
 
