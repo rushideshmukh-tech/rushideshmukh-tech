@@ -1,0 +1,105 @@
+site_name: IaC Hub - Bicep & Terraform
+site_description: A comprehensive guide to Infrastructure as Code using Azure Bicep and Terraform
+site_author: Rushikesh Deshmukh
+site_url: https://rushideshmukh-tech.github.io
+
+# Repository
+repo_name: rushideshmukh-tech/rushideshmukh-tech
+repo_url: https://github.com/rushideshmukh-tech/rushideshmukh-tech
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Bicep:
+    - Getting Started: bicep/getting-started.md
+    - Modules: bicep/modules.md
+    - Best Practices: bicep/best-practices.md
+    - Examples: bicep/examples.md
+  - Terraform:
+    - Getting Started: terraform/getting-started.md
+    - Modules: terraform/modules.md
+    - Best Practices: terraform/best-practices.md
+    - Examples: terraform/examples.md
+  - Comparisons:
+    - Bicep vs Terraform: comparisons/bicep-vs-terraform.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rushideshmukh-tech
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/your-profile
+  generator: false
+
+# Copyright
+copyright: Copyright &copy; 2026 Rushikesh Deshmukh
